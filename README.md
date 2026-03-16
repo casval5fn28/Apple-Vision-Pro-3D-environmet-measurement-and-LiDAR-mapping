@@ -8,21 +8,21 @@ By synchronizing device pose tracking with spatial mesh raycasting, the applicat
 ## METHODS
 
 # 1.Real-Time World Tracking
--Continuous retrieval of device anchor transform (4×4 matrix)
--Extraction of user world pos. and forward viewing direction
--Frame-by-frame pose update for spatial alignment
+Continuous retrieval of device anchor transform (4×4 matrix)
+Extraction of user world pos. and forward viewing direction
+Frame-by-frame pose update for spatial alignment
 
 # 2.LiDAR-Based Scene Reconstruction
--System-level LiDAR + visual tracking
--Generation of MeshAnchors
--RealityKit scene reconstruction
--Raycast queries against dynamic spatial mesh
+System-level LiDAR + visual tracking
+Generation of MeshAnchors
+RealityKit scene reconstruction
+Raycast queries against dynamic spatial mesh
 
 # 3.Gaze-Aligned Raycasting
--Forward vector derived from device -Z axis
--Raycast from user position into reconstructed mesh
--Nearest-hit intersection query
--Euclidean distance computation
+Forward vector derived from device -Z axis
+Raycast from user position into reconstructed mesh
+Nearest-hit intersection query
+Euclidean distance computation
 
 ## Next Steps
 Integrate tree-instance segmentation model
