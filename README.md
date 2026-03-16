@@ -23,7 +23,7 @@ By synchronizing device pose tracking with spatial mesh raycasting, the applicat
   - Nearest-hit intersection query
   - Euclidean distance computation
 
-- **# Next Steps**
+# Next Steps
   - Integrate tree-instance segmentation model
   - Perform real-time trunk detection
   - Perform real-time DBH measurement
