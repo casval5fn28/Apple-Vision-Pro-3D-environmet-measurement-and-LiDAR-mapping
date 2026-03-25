@@ -10,7 +10,6 @@ By synchronizing device pose tracking with spatial mesh raycasting, the applicat
 - **Expandable Mixed Reality**: AR meshes persist as you walk around your entire space (you can eventually create a large mesh of the whole scene)
 - **Color-Coded Surfaces**: Automatic classification (floors, walls, ceilings, furniture)
 
-# Features
 ## Core Capabilities
 - **Real-Time Plane Detection**
   - Detects horizontal & vertical surfaces
